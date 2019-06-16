@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+﻿cmake_minimum_required(VERSION 2.8)
 project(vn_xtp_api)
 
 # 设置使用的编译器
@@ -104,3 +104,6 @@ set(TD_DLL ${LIBRARY_OUTPUT_PATH}/Release/vnxtptrader.dll)
 if (EXISTS ${TD_DLL})
   file(RENAME  ${TD_DLL} ${LIBRARY_OUTPUT_PATH}/Release/vnxtptrader.pyd)
 endif()
+
+
+# None Modify By Tony 2018/6/20
